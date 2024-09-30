@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className="min-h-screen bg-zinc-900 font-sans antialiased">
+      <body className="min-h-screen bg-zinc-900 font-sans antialiased [&_section]:text-white [&_section]:h-[2000px]">
         <Header></Header>
         <main>{children}</main>
       </body>
